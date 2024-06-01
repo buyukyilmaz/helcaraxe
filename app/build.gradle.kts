@@ -18,13 +18,6 @@ android {
             variantBuilder.enable = false
         }
     }
-
-    libraryVariants.all {
-        outputs.all {
-            val output = this as com.android.build.gradle.internal.api.BaseVariantOutputImpl
-            output.outputFileName = "helcaraxe-1.0.4.aar"
-        }
-    }
 }
 
 dependencies {
@@ -42,7 +35,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.glorfindel.helcaraxe"
                 artifactId = "helcaraxe"
-                version = "1.0.4"
+                version = "1.0.0"
             }
         }
     }
