@@ -22,7 +22,7 @@ android {
     libraryVariants.all {
         outputs.all {
             val output = this as com.android.build.gradle.internal.api.BaseVariantOutputImpl
-            output.outputFileName = "helcaraxe-1.0.0.aar"
+            output.outputFileName = "helcaraxe-1.0.1.aar"
         }
     }
 }
@@ -42,7 +42,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.glorfindel.helcaraxe"
                 artifactId = "helcaraxe"
-                version = "1.0.0"
+                version = "1.0.1"
             }
         }
     }
