@@ -1,3 +1,23 @@
+## Setup
+
+Add jitpack.io to settings.gradle.kts
+
+```gradle
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { setUrl("https://jitpack.io") }
+    }
+}
+```
+Add dependency to build.gradle.kts
+
+```gradle
+implementation("com.github.buyukyilmaz:helcaraxe:1.0.0")
+```
+
 ## AppConfig
 
 |                   |        |
