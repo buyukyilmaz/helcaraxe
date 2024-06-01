@@ -2,7 +2,6 @@ plugins {
     id("com.android.library")
     kotlin("android")
     id("org.jmailen.kotlinter")
-    `maven-publish`
 }
 
 android {
@@ -22,7 +21,7 @@ android {
     libraryVariants.all {
         outputs.all {
             val output = this as com.android.build.gradle.internal.api.BaseVariantOutputImpl
-            output.outputFileName = "helcaraxe-1.0.1.aar"
+            output.outputFileName = "helcaraxe-1.0.2.aar"
         }
     }
 }
@@ -33,17 +32,4 @@ dependencies {
     implementation("com.google.code.gson:gson:2.11.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
-}
-
-afterEvaluate {
-    publishing {
-        publications {
-            register("release", MavenPublication::class) {
-                from(components["release"])
-                groupId = "com.glorfindel.helcaraxe"
-                artifactId = "helcaraxe"
-                version = "1.0.1"
-            }
-        }
-    }
 }
