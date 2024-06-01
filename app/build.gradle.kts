@@ -21,7 +21,7 @@ android {
     libraryVariants.all {
         outputs.all {
             val output = this as com.android.build.gradle.internal.api.BaseVariantOutputImpl
-            output.outputFileName = "helcaraxe-1.0.2.aar"
+            output.outputFileName = "helcaraxe-1.0.3.aar"
         }
     }
 }
