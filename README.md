@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/buyukyilmaz/helcaraxe.svg)](https://jitpack.io/#buyukyilmaz/helcaraxe)
+
 ## Setup
 
 Add jitpack.io to settings.gradle.kts
@@ -24,7 +26,7 @@ implementation("com.github.buyukyilmaz:helcaraxe:1.0.0")
 |-------------------|--------|
 | compileSdk        | 34     |
 | buildToolsVersion | 34.0.0 |
-| minSdk            | 27     |
+| minSdk            | 28     |
 | kotlinVersion     | 1.9.24 |
 | gradleVersion     | 8.4.1  |
 | jvmToolchain      | 17     |

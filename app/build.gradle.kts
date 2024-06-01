@@ -9,7 +9,7 @@ android {
     namespace = "com.glorfindel.helcaraxe"
     compileSdk = 34
     buildToolsVersion = "34.0.0"
-    defaultConfig.minSdk = 27
+    defaultConfig.minSdk = 28
     buildTypes.getByName("release").isMinifyEnabled = false
     kotlin.jvmToolchain(17)
 
