@@ -35,7 +35,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.glorfindel.helcaraxe"
                 artifactId = "helcaraxe"
-                version = "1.0.0"
+                version = "1.0.1"
             }
         }
     }
