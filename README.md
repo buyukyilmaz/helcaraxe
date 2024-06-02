@@ -17,7 +17,7 @@ dependencyResolutionManagement {
 Add dependency to build.gradle.kts
 
 ```gradle
-implementation("com.github.buyukyilmaz:helcaraxe:1.0.1")
+implementation("com.github.buyukyilmaz:helcaraxe:1.0.2")
 ```
 
 ## AppConfig
@@ -27,7 +27,7 @@ implementation("com.github.buyukyilmaz:helcaraxe:1.0.1")
 | compileSdk        | 34     |
 | buildToolsVersion | 34.0.0 |
 | minSdk            | 28     |
-| kotlinVersion     | 1.9.24 |
+| kotlinVersion     | 2.0.0  |
 | gradleVersion     | 8.4.1  |
 | jvmToolchain      | 17     |
 
